@@ -1,0 +1,31 @@
+h1 {
+    color: black;
+    border-bottom: 3px double black;
+    padding: 5px;
+    font: bold 140% arial, sans-serif;
+}
+
+h2 {
+    color: black;
+    padding: 5px;
+    font: bold 120% arial, sans-serif;
+}
+
+body {
+    font: 100% arial, sans-serif;
+}
+
+table, th, td {
+    border: 3px ridge silver;
+    padding: 5px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+

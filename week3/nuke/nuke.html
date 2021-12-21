@@ -1,0 +1,43 @@
+<html>
+<head>
+    <title>Nuke Launch Site</title>
+</head>
+
+<body>
+    <!-- Form Goes Here -->
+    <!-- The form must submit to process_nuke.php (in the same directory) -->
+    <!-- Image files are available in a child directory "images" -->
+    <h1>Nuke Launch Site</h1>
+
+    <img src="images/supremeleader.jpg" width="200" height="200">
+
+    <form action="process_nuke.php">
+        <!--Drop down menu-->
+        <br>
+        Fullname: <br>
+
+        <input type="text" name="fullname">
+        <br>
+        How many would you like to shoot?<br>
+        <select name="num">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+        </select>
+        <br>
+        <br>
+        <!--Input Text-->
+        Personalized Laughter: <br>
+        <input type="text" value="HAHAHAHA">
+
+        <!--Drop down menu-->
+        <br>
+        <input type="submit" name="laugh" value="Shoot">
+    </form>
+
+</body>
+    
+</html>

@@ -1,0 +1,54 @@
+<html>
+<body>
+
+	<form action='receive.php' method='get'>
+		<table border='1'>
+		<tr>
+			<th>
+				Title / Name
+			</th>
+			<td colspan='3'>
+				<input type='text' name='id' value='' />
+			</td>
+		</tr>
+		<tr>
+			<th>
+				Language
+			</th>
+			<td>
+				<label> <input type='radio' name='lang' value='EN' /> English </label>
+				<label> <input type='radio' name='lang' value='CH' /> Chinese </label>
+				<label> <input type='radio' name='lang' value='OTH' /> Others </label>
+			</td>
+			<th rowspan='2'>
+				Media Format
+			</th>
+			<td rowspan='2'>
+				<label> <input type='checkbox' name='medium[]' value='hardcopies' /> Hardcopies (e.g. Book) </label><br/>
+				<label> <input type='checkbox' name='medium[]' value='dvd' /> DVD </label><br/>
+				<label> <input type='checkbox' name='medium[]' value='stream' /> Streaming (e.g. Spotify, YouTube) </label><br/>
+			</td>
+		</tr>
+		<tr>
+			<th>
+				Suitable for
+			</th>
+			<td>
+				<select name='rating'>
+					<option value='g'>All ages</option>
+					<option value='pg'>Above 12 year old</option>
+					<option value='r'>18 years old and above</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td colspan='4'>
+				<input type='submit' name='btnSend' value='Send the form!' />
+			</td>
+		</tr>
+		</table>
+	
+	</form>
+
+</body>
+</html>

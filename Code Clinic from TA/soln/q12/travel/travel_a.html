@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <form>
+        <img src="img/maldives.jpg" height="200">
+        <h1>Let's go on a vacation!</h1>
+        Select the countries you want to travel to! <br>
+        <select name="destinations[]" multiple>
+            <option value="bali">Bali</option>
+            <option value="japan">Japan</option>
+            <option value="korea">Korea</option>
+            <option value="malaysia">Malaysia</option>
+            <option value="hongkong">Hong Kong</option>
+        </select>
+        
+        <br><br>
+        Will you be going alone? <br>
+        <label><input type="radio" name="alone" value="yes">Yes</label>
+        <label><input type="radio" name="alone" value="no">No</label>
+        
+        <br><br>
+        What do you want to do in that country? <br>
+        <label><input type="checkbox" name="activities[]" value="eat">Eat</label>
+        <label><input type="checkbox" name="activities[]" value="shop">Shop</label>
+        <label><input type="checkbox" name="activities[]" value="relax">Relax</label>
+        <label><input type="checkbox" name="activities[]" value="sleep">Sleep</label>
+        
+        <br><br>
+        <input type="submit" name="submit" value="Let's fly!">
+        <br><br>
+    </form>
+</body>
+</html>

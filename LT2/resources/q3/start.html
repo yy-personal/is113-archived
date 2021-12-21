@@ -1,0 +1,29 @@
+<!-- DO NOT MODIFY THIS FILE -->
+<!DOCTYPE html>
+<html>
+    <body>
+        <h3>Create Study Groups</h3>
+        <form action='show_groups.php'>
+            <table>
+                <tr>
+                    <td>Minimum group size:</td>
+                    <td><input type='text' name='min_size' value='2'/></td>
+                </tr>
+                <tr>
+                    <td>Maximum group size:</td>
+                    <td><input type='text' name='max_size' value='3'/></td>
+                </tr>
+                <tr>
+                    <td>
+                        There is at least one student<br/> in the group with GPA of at least: 
+                    </td>
+                    <td>
+                        <input type='text' name='min_gpa' value='3.5'/>
+                    </td>
+                </tr>
+            </table>
+            <br/>
+            <input type='submit' value='Get Groups'/>
+        </form>
+    </body>
+</html>

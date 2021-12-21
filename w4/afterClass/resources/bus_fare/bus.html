@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Compute Bus Fare in Far Far Away Land</title>
+    </head>
+    <body>
+        <h2>Enter details</h2>
+        <form action="bus_fare.php" method="post">
+            Distance (in km): 
+            <input type="text" name="distance" size="5" required/><br/>
+            Age group: 
+                <select name="age_group">
+                    <option value="children"><12</option>
+                    <option value="others" selected>12-60</option>
+                    <option value="senior">>60</option>
+                </select><br/>
+            Time: 
+            <input type="radio" name="time" value="Peak" checked/>Peak
+            <input type="radio" name="time" value="Non-Peak"/>Non-Peak<br/>
+            <input type="submit" value="Compute Fare"/>
+        </form>
+    </body>
+</html>

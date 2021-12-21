@@ -1,0 +1,54 @@
+<!--
+
+    DO NOT MODIFY THIS FILE'S CONTENT
+
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Family Search</title>
+</head>
+<body>
+
+    <h1>Hollywood Family Search (Version 4)</h1>
+
+    <form action='do_search3.php' method='GET'>
+
+        Select a Hollywood family surname:
+        <br>
+        
+        <input type='radio' name='surname' value='kardashian' checked> Kardashian
+        <br>
+        <input type='radio' name='surname' value='jonas'> Jonas
+        <br>
+        <input type='radio' name='surname' value='jolie-pitt'> Jolie-Pitt
+        <br>
+        <input type='radio' name='surname' value='kimm'> Kimm
+
+        <br><br>
+        Show me only 
+        <input type='radio' name='gender' value='male'> <b><font color='blue'>Male</font></b>
+        <input type='radio' name='gender' value='female'> <b><font color='red'>Female</font></b>
+        <input type='radio' name='gender' value='all' checked> <b><font color='green'>Any Gender</font></b>
+        family members
+
+        <br><br>
+        Show me whose net worth is:<br>
+        <select name='operator'>
+            <option value='>'> Greater Than </option>
+            <option value='<'> Less Than </option>
+            <option value='Any' selected> Any </option>
+        </select>
+        <input type='text' name='networth' size='7' maxlength='5' placeholder='e.g. 20'> (USD Million)
+
+        <br><br>
+        <input type='submit' value='Show Me The Family'>
+
+
+    </form>
+
+    <hr>
+    Back to <a href='../celebrity/'>Celebrity Directory Page</a>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+<html>
+<body>
+    <form action="text.php" method="POST">
+        <table border='1'>
+        <tr>
+            <td> Message </td>
+            <td> <input name='msg' placeholder="Enter your message" size='50' /> </td>
+        </tr>
+        <tr>
+            <td> Style </td>
+            <td>
+                <label>
+                    <input type='checkbox' name='styles[]' value='italic'/> Italic
+                </label>    
+                <label>
+                    <input type='checkbox' name='styles[]' value='bold'/> Bold
+                </label>    
+            </td>
+        </tr>
+        <tr>
+            <td>Colour</td>
+            <td>
+                <select name='color'>
+                    <option value='black'>Black</option>
+                    <option value='red'>Red</option>
+                    <option value='blue'>Blue</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Background color</td>
+            <td>
+                <label>
+                    <input type='radio' name='bgcolor' value='cyan'/> Cyan
+                </label>
+                <label>
+                    <input type='radio' name='bgcolor' value='magenta'/> Magenta
+                </label>            
+                <label>
+                    <input type='radio' name='bgcolor' value='yellow'/> Yellow
+                </label>
+                <br/>
+                If none is selected, background color is white.
+            </td>
+        </tr>
+        </table>
+        <input type='submit' value='Go!' />
+    </form>
+</body>
+</html>

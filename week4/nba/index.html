@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NBA Players</title>
+</head>
+
+<body>
+
+    <h1>NBA Legends</h1>
+
+    <hr>
+
+    <form action="send.php"  method="GET" > 
+        <table border='1'>
+
+            <tr>
+                <td>
+                    Who is your basketball legend?
+                </td>
+                <td>
+                    <select name="legend">
+                    <option value="Micheal Jordon">Michael Jordan</option>
+                    <option value="Kobe Bryant">Kobe Bryant</option>
+                    <option value="Shaquille O'Neal">Shaquille O'Neal</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Message to your legend:
+                </td>
+                <td>
+                    <input type="text" size="30" name="message">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Select one lucky number:
+                </td>
+                <td>
+                    <input type="number" name="number">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Select one color:
+                </td>
+                <td>
+                    <input type="radio" name="color" value="red">red <br>
+                    <input type="radio" name="color" value="green">green <br>
+                    <input type="radio" name="color" value="blue">blue <br>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Select gifts to send:
+                </td>
+                <td>
+                    <input type="checkbox" name="gifts[]" value="Perfume"> Perfume <br>
+                    <input type="checkbox" name="gifts[]" value="Book"> Book <br>
+                    <input type="checkbox" name="gifts[]" value="Love"> Love <br>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan='2' align='center'>
+                    <input type="submit" value="Send message to my NBA Legend">
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+
+</body>
+
+</html>

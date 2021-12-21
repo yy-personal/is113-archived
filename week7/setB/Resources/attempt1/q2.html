@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <form method='post' action='q2-calculate.php'>
+        <table border='1'>
+            <tr>
+                <td>How many sets do you want?</td>
+                <td>
+                    <select name='quantity'>
+                        <option value='1'>1</option>
+                        <option value='2'>2</option>
+                        <option value='3'>3</option>
+                        <option value='4'>4</option>
+                        <option value='5'>5</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Choose Your Lucky Number<br>
+                    (0 to 9, INTEGER only)
+                </td>
+                <td>
+                    <input type='text' name='lucky_number' size='1' maxlength='1' required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Bet Amount (NUMERIC)
+                </td>
+                <td>
+                    <input type='text' name='bet_amount' size='5' required>
+                </td>
+            </tr>
+            <tr>
+                <td colspan='2'><input type='submit' name='check'></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

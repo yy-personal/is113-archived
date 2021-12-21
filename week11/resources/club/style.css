@@ -1,0 +1,23 @@
+h1 {
+	font: bold 20px arial, sans-serif;
+	color: darkred;
+}
+
+body {
+	font: 15px arial, sans-serif;
+}
+
+table, th, td {
+	border: 2px dotted darkred;
+}
+
+th {
+	font: bold 15px arial, sans-serif;
+	color: white;
+	background-color: darkred;
+}
+
+.highlight {
+	font: bold 25px arial, sans-serif;
+	color: darkorange ;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Corona Check</title>
+</head>
+
+<body>
+
+    <h1>Corona Virus Survey</h1>
+
+    <hr>
+    <form action="check.php" method="POST">
+        <table border='1'>
+
+            <tr>
+                <td>
+                    In the last 14 days<br>
+                    I have travelled to/from:
+                </td>
+                <td>
+                    <!-- Write Your HTML Here 
+                        This is a 'multiselect' drop-down menu in HTML
+                    -->
+                    <select name="countries[]" multiple>
+                        <option type="checkbox" value="China">China</option>
+                        <option type="checkbox" value="Korea">Korea</option>
+                        <option type="checkbox" value="Taiwan">Taiwan</option>
+
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    I am a:
+                </td>
+                <td>
+                    <!-- Write Your HTML Here -->
+                    <input type="radio" name="gender" value="girl" checked>Girl <br>
+                    <input type="radio" name="gender" value="Boy">Boy <br>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    I am having these symptoms:
+                </td>
+                <td>
+                    <!-- Write Your HTML Here -->
+                    <input type="checkbox" name="symptoms[]" value="Perfume"> Fever <br>
+                    <input type="checkbox" name="symptoms[]" value="Book"> Cough <br>
+                    <input type="checkbox" name="symptoms[]" value="Love"> Shortness of Breath <br> 
+                    
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align='center'>
+                    <!-- Write Your HTML Here -->
+                    <input type="submit" value="OMG Am I Having Corona Virus?">
+                    
+                </td>
+            </tr>
+
+        </table>
+    </form>
+</body>
+
+</html>
